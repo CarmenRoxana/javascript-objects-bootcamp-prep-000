@@ -2,7 +2,10 @@ var playlist = {'Tom Jones': 'Lion','Prince': 'Purple Rain', 'David Bowie': 'Blo
 
 function updatePlaylist(playlist, artist, song){
   playlist.artist = song;
-  return playslist
+  return playslist;
 }
 
-function 
+function removeFromPlaylist(playlist, artist) {
+  
+  delete playlist.artist;
+}
