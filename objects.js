@@ -1,4 +1,4 @@
-var playlist = {'Tom Jones': 'Lion','Prince': 'Purple Rain', 'David Bowie': 'Blood of Eden'}
+var playlist = {'My Bloody Valentine': 'Sometimes', 'Phil Ochs': "Here's to the State of Mississippi"}
 
 function updatePlaylist(playlist, artistName, songTitle){
   playlist.artist = songTitle;
